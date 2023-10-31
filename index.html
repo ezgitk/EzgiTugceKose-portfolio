@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ezgi Tugce Kose - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+            Ezgi Tugce Kose
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          ezgitugcekose@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +905343694610
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://us.123rf.com/450wm/amahce/amahce2104/amahce210400078/168089201-woman-working-on-laptop-freelance-online-studying-remote-work-concept-vector-illustration.jpg?ver=6" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Ezgi Tugce Kose! <img src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/svg/1f44b.svg" width="60px"/>
+          </h1>
+          <p>
+            I am a Software Quality Assurance Engineer </br> with 4 years of experience in mostly Manual Testing. </br>
+            I have worked on 2 different companies </br> and I also have UI test automation experience with 6 months.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+            <img src="https://assets.stickpng.com/images/62a9ad4c8ff6441a2952dab8.png"/>
+            <h6>JIRA</h6>
+            <p>3 years experience</p>
+        </div>
+
+        <div class="skill">
+            <img src="https://assets.stickpng.com/images/6298dd4c173f782c64abc71c.pngskill"/>
+            <h6>Confluence</h6>
+            <p>3 years experience</p>
+        </div>
+
+        <div class="skill">
+            <img src="https://conference.eurostarsoftwaretesting.com/wp-content/uploads/2021/09/TestRail-Logo.png"/>
+            <h6>TestRail</h6>
+            <p>2 years experience</p>
+        </div>
+
+        <div class="skill">
+            <img src="https://cdn.worldvectorlogo.com/logos/postman.svg"/>
+            <h6>Postman</h6>
+            <p>2 years experience</p>
+        </div>
+
+        <div class="skill">
+            <img src="html_finalprojimages/html5.png"/>
+            <h6>HTML</h6>
+            <p>1 year experience</p>
+          </div>  
+  
+          <div class="skill">
+              <img src="https://cdn-icons-png.flaticon.com/512/919/919826.png"/>
+              <h6>CSS</h6>
+              <p>1 year experience</p>
+          </div>
+  
+          <div class="skill">
+            <img src="html_finalprojimages/js.jpeg"/>
+            <h6>JavaScript</h6>
+            <p>1 year experience</p>
+          </div>  
+        
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>UI Test Automation</h3>
+            <ul>
+              <li>Created UI automation tests for a SaaS company website using JavaScript and nightwatch.js</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Test Scenarios</h3>
+            <ul>
+              <li>Analyzed features, created low-level and high-level test cases for a SaaS company website using Confluence and TestRail.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Bug Reports</h3>
+            <ul>
+              <li>Ran test cases and created bug reports for a SaaS company website using JIRA.</li>
+            </ul>
+          </div>
+          <hr>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Ezgi is a very quick learner and she does her responsibilities on time. 
+          She is a team player and wants to help her teammates. 
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Ezgi has been an awesome experience.
+          She always goes the extra step to make sure everything is right.
+          For any future projects that need her expertise I would definitely want to work with her again.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I worked with Ezgi for 2 years and it was lovely to work with her. 
+          She is a problem-solving-oriented and positive person.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3><!-- Add appropriate text here--></h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
